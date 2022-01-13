@@ -1,0 +1,31 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "Get a random quote from some of the greatest minds of history at the click of a button.",
+            "technologies": [
+                "JavaScript","CSS","HTML","Git"
+            ],
+            "live_link": "http://placeholder",
+            "github_link": "https://github.com/harrisclark/techdegree-project-1.0",
+            "image_urls": [
+                "/images/quote_ss.png"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "Data Pagination & Filtering",
+            "description": "Displays 12 user profiles per page.",
+            "technologies": [
+                "not", "sure", "what", "this", "is", "yet"
+            ],
+            "live_link": "http://placeholder",
+            "github_link": "https://github.com/harrisclark/data-pagination-and-filtering-v1",
+            "image_urls": [
+                "/images/pagination_ss.png"
+            ]
+        }
+    ]
+    
+}
