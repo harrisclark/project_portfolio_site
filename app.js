@@ -16,10 +16,28 @@ app.get('/about', (req, res) => {
 });
 
 // project page
-app.get('/projects/:id', (req, res) => {
+app.get('/projects/:id', (req, res, next) => {
     const {id} = req.params;
-    res.render('project', {project: data.projects[id]});
-})
+    if (data.projects[id]) {
+        res.render('project', {project: data.projects[id]});
+    } else {
+        next()
+    }
+});
+
+app.use((req, res, next) => {
+    const err = new Error();
+    err.status = 404;
+    err.message = "Oops! The page you're looking for does not exist :(";
+    next(err);
+});
+
+app.use((err, req, res, next) => {
+    res.locals.error = err;
+    res.status(err.status);
+    console.log(err);
+    res.render('error');
+});
 
 app.listen(3000, () => {
     console.log('server running on localhost:3000');

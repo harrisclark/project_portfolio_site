@@ -3,7 +3,7 @@
         {
             "id": 0,
             "project_name": "Random Quote Generator",
-            "description": "Get a random quote from some of the greatest minds of history at the click of a button.",
+            "description": "Get a random quote from some of the greatest minds of history at the click of a button, or automatically every 10 seconds",
             "technologies": [
                 "JavaScript","CSS","HTML","Git"
             ],
@@ -16,14 +16,53 @@
         {
             "id": 1,
             "project_name": "Data Pagination & Filtering",
-            "description": "Displays 12 user profiles per page.",
+            "description": "Displays 12 user profiles per page. Allows you to toggle between pages by page number and/or filter results by search.",
             "technologies": [
-                "not", "sure", "what", "this", "is", "yet"
+                "JavaScript","CSS","HTML","DOM Manipulation","Data Filtering"
             ],
             "live_link": "http://placeholder",
             "github_link": "https://github.com/harrisclark/data-pagination-and-filtering-v1",
             "image_urls": [
                 "/images/pagination_ss.png"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "A mock-form to register for programming workshops as well as order T-shirts.",
+            "technologies": [
+                "JavaScript","CSS","HTML","HTML Forms","Regular Expressions"
+            ],
+            "live_link": "http://placeholder",
+            "github_link": "https://github.com/harrisclark/interactive-form-v3",
+            "image_urls": [
+                "/images/interactive_form_ss.png"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "Quote Hunter Game",
+            "description": "A hangman like game for famous movie quotes designed using Object Oriented Programming.",
+            "technologies": [
+                "JavaScript","CSS","HTML","OOP","Array Iteration"
+            ],
+            "live_link": "http://placeholder",
+            "github_link": "https://github.com/harrisclark/movie_quote_hunter",
+            "image_urls": [
+                "/images/quote_hunter_ss.png"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Profile API Search",
+            "description": "An app that requests random users from a public API and allows you to search for those users by name.",
+            "technologies": [
+                "JavaScript","CSS","HTML","AJAX"
+            ],
+            "live_link": "http://placeholder",
+            "github_link": "https://github.com/harrisclark/public_api_requests",
+            "image_urls": [
+                "/images/api_requests_ss.png"
             ]
         }
     ]
