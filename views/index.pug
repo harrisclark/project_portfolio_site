@@ -13,7 +13,7 @@ block content
   article.portfolio-project-thumbs
     .projects-box.box.grid
 
-      //- Use the Pug `each` iterator to loop over the projects in your data file  
+      //- display each project tile and image
       each project in projects
         .cell
           a(href=`../projects/${project.id}`)

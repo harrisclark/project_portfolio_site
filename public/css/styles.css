@@ -28,7 +28,7 @@ body {
 }
 
 article {
-  background: #fefefe;
+  background: #966969;
 }
 
 h1,h2,h3,h4,h5,p{
@@ -51,7 +51,7 @@ h6{
 
 p{
   font-size: 15px;
-  color: #666;
+  color: rgb(0, 0, 0);
 }
 
 a {
@@ -63,7 +63,7 @@ a {
   min-width: 320px;
   height: 100%;
   min-height: 100%;
-  background: #fefefe;
+  background: #966969;
 }
 
 .flex-row-wrap {
@@ -82,7 +82,7 @@ a {
   width: 100%;
   max-width: 1200px;
   padding: 40px 50px 30px;
-  background: #fefefe;
+  background: #cccccc;
   border-bottom: 1px solid #eaeaea;
 }
 
@@ -108,7 +108,7 @@ a {
 nav {
   width: 100%;
   padding: 20px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #966969;
 }
 
 nav a {
@@ -137,7 +137,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background: rgb(82, 38, 38);
 }
 
 .sidebar-info-box {

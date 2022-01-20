@@ -54,7 +54,7 @@
         },
         {
             "id": 4,
-            "project_name": "Profile API Search",
+            "project_name": "User API Search",
             "description": "An app that requests random users from a public API and allows you to search for those users by name.",
             "technologies": [
                 "JavaScript","CSS","HTML","AJAX"
