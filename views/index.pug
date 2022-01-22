@@ -3,17 +3,11 @@ extends layout.pug
 block content
 
   article.portfolio-intro
-    //-Portfolio header
     h1 Project Portfolio
-
-    //- Portfolio desctiption
     p This page contains a list of all projects I have constructed while learning the basics of Web Development.
-
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
-
-      //- display each project tile and image
       each project in projects
         .cell
           a(href=`../projects/${project.id}`)

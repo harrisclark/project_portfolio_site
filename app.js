@@ -25,6 +25,7 @@ app.get('/projects/:id', (req, res, next) => {
     }
 });
 
+// 404 error handler
 app.use((req, res, next) => {
     const err = new Error();
     err.status = 404;
@@ -32,6 +33,7 @@ app.use((req, res, next) => {
     next(err);
 });
 
+//global error handler
 app.use((err, req, res, next) => {
     res.locals.error = err;
     res.status(err.status);
